@@ -1,0 +1,27 @@
+.user{
+    position: relative;
+    top: 150px;
+    left: 35%;
+}
+input{
+    padding: 8px;
+    width: 300px;
+    border: 2px solid #ccc;
+    font-size: 22px;
+}
+button{
+    padding: 15px;
+    margin-left: 12px;
+    border: none;
+    outline: none;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    font-weight: 600;
+}
+button:hover{
+    color: #fff;
+}
+.pastsearch{
+    font-size: 20px;
+    margin-top: 12px;
+}
