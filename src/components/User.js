@@ -55,7 +55,7 @@ const User = () => {
   <h1>List of users</h1>
       <ul>
         {users.filter((user)=>{
-          return user.name.toLowerCase().includes(search);
+          return user.name.toLowerCase().includes(search.toLowerCase());
         })
         .map(user => (
           <li  key={user.id}>{user.name}</li>
